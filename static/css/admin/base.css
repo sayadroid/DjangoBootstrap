@@ -797,17 +797,13 @@ table#change-history tbody th {
 
 #branding h1 {
     padding: 0 10px;
-    font-size: 18px;
     margin: 8px 0;
-    font-weight: normal;
     color: #f4f379;
 }
 
 #branding h2 {
     padding: 0 10px;
-    font-size: 14px;
     margin: -8px 0 8px 0;
-    font-weight: normal;
     color: #ffc;
 }
 
