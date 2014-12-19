@@ -30,13 +30,13 @@
             {% endif %}
 
             {% if model.add_url %}
-                <td><a href="{{ model.add_url }}" class="addlink btn btn-danger">{% trans 'Add' %}</a></td>
+                <td><a href="{{ model.add_url }}" class="addlink btn btn-danger" data-toggle="popover" title="This is add button." data-content="Add content explains." data-trigger="hover">{% trans 'Add' %}</a></td>
             {% else %}
                 <td>&nbsp;</td>
             {% endif %}
 
             {% if model.admin_url %}
-                <td><a href="{{ model.admin_url }}" class="changelink btn btn-warning">{% trans 'Change' %}</a></td>
+                <td><a href="{{ model.admin_url }}" class="changelink btn btn-warning" data-toggle="popover" title="This is change button." data-content="Change content explains." data-trigger="hover">{% trans 'Change' %}</a></td>
             {% else %}
                 <td>&nbsp;</td>
             {% endif %}
