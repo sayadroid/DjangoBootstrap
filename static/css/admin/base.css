@@ -451,7 +451,7 @@ input[type=text], input[type=password], textarea, select, .vTextField {
 
 .button.default, input[type=submit].default, .submit-row input.default {
     border: 2px solid #5b80b2;
-    background: #7CA0C7 url(../img/default-bg.gif) bottom repeat-x;
+    background: #FFA2B8 url(../img/default-bg.gif) bottom repeat-x;
     font-weight: bold;
     color: white;
     float: right;
@@ -500,7 +500,7 @@ input[type=text], input[type=password], textarea, select, .vTextField {
     font-size: 11px;
     text-align: left;
     font-weight: bold;
-    background: #7CA0C7 url(../img/default-bg.gif) top left repeat-x;
+    background: #FFA2B8 url(../img/default-bg.gif) top left repeat-x;
     color: white;
 }
 
@@ -782,7 +782,7 @@ table#change-history tbody th {
 /* HEADER */
 
 #header {
-    background: #417690;
+    background: #AA4767;
     color: #ffc;
     overflow: hidden;
 }
